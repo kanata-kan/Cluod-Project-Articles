@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+.fix-height {
+  min-height: calc(100vh - 472px);
+}
+.said-height {
+  height: calc(100vh - 60px);
+}
+.logoText {
+  font-size: 18px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #007bff;
+  font-weight: 700;
+}
